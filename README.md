@@ -5,6 +5,10 @@
 - Library is a free and fast way of sorting your steam mods!
 - It will transform your ugly looking steam mod folders into easy to read ones!
 
+**Things to know before using?**
+- Library won't work without being connected to the internet.
+- Library's speed is heavily reliant on your internet connection!
+
 **How does it work?**
 - Press the 'Browse' button and select the root folder that contains all your mods of the wanted application.
 - Press the 'Convert' button.
