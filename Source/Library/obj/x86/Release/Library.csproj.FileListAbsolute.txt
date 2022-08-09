@@ -1,0 +1,13 @@
+D:\Files\Solutions\Library\Library\bin\x86\Release\Library.exe.config
+D:\Files\Solutions\Library\Library\bin\x86\Release\Library.exe.manifest
+D:\Files\Solutions\Library\Library\bin\x86\Release\Library.application
+D:\Files\Solutions\Library\Library\bin\x86\Release\Library.exe
+D:\Files\Solutions\Library\Library\bin\x86\Release\Library.pdb
+D:\Files\Solutions\Library\Library\obj\x86\Release\Library.Library.resources
+D:\Files\Solutions\Library\Library\obj\x86\Release\Library.Properties.Resources.resources
+D:\Files\Solutions\Library\Library\obj\x86\Release\Library.csproj.GenerateResource.cache
+D:\Files\Solutions\Library\Library\obj\x86\Release\Library.csproj.CoreCompileInputs.cache
+D:\Files\Solutions\Library\Library\obj\x86\Release\Library.exe.manifest
+D:\Files\Solutions\Library\Library\obj\x86\Release\Library.application
+D:\Files\Solutions\Library\Library\obj\x86\Release\Library.exe
+D:\Files\Solutions\Library\Library\obj\x86\Release\Library.pdb

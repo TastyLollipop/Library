@@ -1,0 +1,10 @@
+D:\Files\Solutions\Library\Library\bin\Debug\Library.exe.config
+D:\Files\Solutions\Library\Library\bin\Debug\Library.exe
+D:\Files\Solutions\Library\Library\bin\Debug\Library.pdb
+D:\Files\Solutions\Library\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+D:\Files\Solutions\Library\Library\obj\Debug\Library.Properties.Resources.resources
+D:\Files\Solutions\Library\Library\obj\Debug\Library.csproj.GenerateResource.cache
+D:\Files\Solutions\Library\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+D:\Files\Solutions\Library\Library\obj\Debug\Library.exe
+D:\Files\Solutions\Library\Library\obj\Debug\Library.pdb
+D:\Files\Solutions\Library\Library\obj\Debug\Library.Library.resources
