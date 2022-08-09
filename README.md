@@ -6,7 +6,7 @@
 - It will transform your ugly looking steam mod folders into easy to read ones!
 
 **Things to know before using?**
-- Some Steam apps break when renaming their mod folders! Please backup in case something goes wrong!
+- Some Steam apps might break when renaming their mod folders! Please backup in case something goes wrong!
 - Library won't work without being connected to the internet.
 - Library's speed is heavily reliant on your internet connection!
 
