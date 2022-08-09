@@ -2,11 +2,11 @@
 ## The Perfect Way Of Sorting Steam Mods
 
 **What is 'Library'?**
-- Library is a free and fast way of sorting your steam mods!
+- Library is a free and fast way of sorting your Steam mods!
 - It will transform your ugly looking steam mod folders into easy to read ones!
 
 **Things to know before using?**
-- Some steam apps break when renaming their mod folders! Please backup in case something goes wrong!
+- Some Steam apps break when renaming their mod folders! Please backup in case something goes wrong!
 - Library won't work without being connected to the internet.
 - Library's speed is heavily reliant on your internet connection!
 
