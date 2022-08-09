@@ -6,9 +6,9 @@
 - It will transform your ugly looking steam mod folders into easy to read ones!
 
 **How does it work?**
-- The program fetches all the folders of a given path (the one you choose to work on)
-- Then it gathers every id of each mod and search for the name of said mod on the internet.
-- Finally, it renames the folder to the wanted name.
+- Press the 'Browse' button and select the root folder that contains all your mods of the wanted application.
+- Press the 'Convert' button.
+- Wait until the process finishes all the tasks.
 
 **How does it look?**
 
