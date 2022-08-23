@@ -63,7 +63,7 @@ namespace Library
         //Tries to start folder conversion
         private void convertButton_Click(object sender, EventArgs e)
         {
-            if (!CheckForParameters()) return;
+            if (!utils.CheckForParameters()) return;
 
             //Disable buttons
             uiLogic.InvokeFunctionOn(UILogic.InvokeMode.toggleButtons, null);
@@ -77,17 +77,5 @@ namespace Library
 
         //Opens the "about" URL
         private void aboutButton_Click(object sender, EventArgs e) { System.Diagnostics.Process.Start(aboutURL); }
-
-        //Checks that every needed parameters is valid
-        private bool CheckForParameters()
-        {
-            if (string.IsNullOrWhiteSpace(pathBox.Text))
-            {
-                uiLogic.InvokeFunctionOn(UILogic.InvokeMode.showMessageBox, 0);
-                return false;
-            }
-
-            return true;
-        }
     }
 }

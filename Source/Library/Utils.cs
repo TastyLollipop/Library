@@ -41,5 +41,17 @@ namespace Library
             try { Directory.Move(previousPath, newPath); }
             catch { Library.networking.skipedIDs++; }
         }
+
+        //Checks that every needed parameters is valid
+        public bool CheckForParameters()
+        {
+            if (string.IsNullOrWhiteSpace(Library._pathBox.Text))
+            {
+                Library.uiLogic.InvokeFunctionOn(UILogic.InvokeMode.showMessageBox, 0);
+                return false;
+            }
+
+            return true;
+        }
     }
 }
