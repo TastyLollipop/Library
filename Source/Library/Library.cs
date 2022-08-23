@@ -1,12 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Library
@@ -17,7 +10,7 @@ namespace Library
         public static Threading threading = new Threading();
         public static Networking networking = new Networking();
         public static Utils utils = new Utils();
-        public static MessageBoxData _MessageBoxData = new MessageBoxData();
+        public static MessageBoxData messageBoxData = new MessageBoxData();
 
         public static Label _statusLabel;
         public static ProgressBar _progressBar;

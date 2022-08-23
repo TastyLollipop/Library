@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
-using System.Windows.Forms;
 
 namespace Library
 {
@@ -34,31 +30,6 @@ namespace Library
 
             Library.networking.ids = tempIDList.ToArray();
             Library.networking.GetData();
-        }
-
-        //Shows message boxes to users
-        public void ShowMessageBox(int indexID)
-        {
-            object[] fetchedData = Library._MessageBoxData.messageData[indexID];
-
-            switch (indexID)
-            {
-                case 1:
-                    MessageBox.Show(
-                        (string)fetchedData[1] + Library.networking.skipedIDs, (string)fetchedData[0],
-                        (MessageBoxButtons)fetchedData[2],
-                        (MessageBoxIcon)fetchedData[3]
-                    );
-                    break;
-
-                default:
-                    MessageBox.Show(
-                        (string)fetchedData[1], (string)fetchedData[0],
-                        (MessageBoxButtons)fetchedData[2],
-                        (MessageBoxIcon)fetchedData[3]
-                    );
-                    break;
-            }
         }
 
         //Renames the folder to its valid name

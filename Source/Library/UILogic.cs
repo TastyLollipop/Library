@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Library
 {
@@ -38,7 +35,7 @@ namespace Library
                     break;
 
                 case InvokeMode.showMessageBox:
-                    safeInvoke = delegate { Library.utils.ShowMessageBox((int) value); };
+                    safeInvoke = delegate { ShowMessageBox((int) value); };
                     Library._progressBar.Invoke(safeInvoke);
                     break;
             }
@@ -61,6 +58,31 @@ namespace Library
 
             Library._progressBar.Enabled = !Library._progressBar.Enabled;
             Library._pathBox.Enabled = !Library._pathBox.Enabled;
+        }
+
+        //Shows message boxes to users
+        public void ShowMessageBox(int indexID)
+        {
+            object[] fetchedData = Library.messageBoxData.messageData[indexID];
+
+            switch (indexID)
+            {
+                case 1:
+                    MessageBox.Show(
+                        (string)fetchedData[1] + Library.networking.skipedIDs, (string)fetchedData[0],
+                        (MessageBoxButtons)fetchedData[2],
+                        (MessageBoxIcon)fetchedData[3]
+                    );
+                    break;
+
+                default:
+                    MessageBox.Show(
+                        (string)fetchedData[1], (string)fetchedData[0],
+                        (MessageBoxButtons)fetchedData[2],
+                        (MessageBoxIcon)fetchedData[3]
+                    );
+                    break;
+            }
         }
     }
 }
